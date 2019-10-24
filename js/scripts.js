@@ -1,12 +1,13 @@
 // 1: Set the text of the <h1> element
-
+document.querySelector("h1").textContent = "Bucket List"
 
 // 2: Set the color of the <h1> to a different color
-
+title.style.color = "red";
 
 // 3: Set the content of the '.desc' paragraph
 // The content should include at least one HTML tag
-
+const desc = document.querySelector(".desc");
+desc.append("the quick brown fox jump over the lazy one")
 
 // 4: Set the class of the <ul> to 'list'
 
